@@ -1,0 +1,185 @@
+{
+    "schedulescreen": {
+        "general": {
+            "title": "EVENT     SCHEDULE"
+        },
+        "tabbar": {
+            "labelbtn1": "REGISTER NOW",
+            "labelbtn2": "TRADESHOW INF",
+            "link1": "https://www.eventbrite.ca/e/toronto-entrepreneurs-conference-tradeshow-registration-may-8th-2019-tickets-53551474903",
+            "link2": "https://www.torontoentrepreneurs.ca/whats-happening-in-the-tradeshow"
+        },
+        "topic": [
+            {
+                "networking": false,
+                "date": "",
+                "start": "8:45am",
+                "end": "9:15am",
+                "room": "Room 105",
+                "eventdesc": "OPENING ADDRESS AND UPDATES FROM THE MINISTER",
+                "speakerdesc": "Hon. Prabmeet Singh Sarkaria Associate Minister of Small Business and Red Tape Reduction",
+                "learnmore": "https://www.torontoentrepreneurs.ca/minister-prabmeet-sarkaria"
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "9:20am",
+                "end": "10:00am",
+                "room": "Room 105",
+                "eventdesc": "HOW TO APPROPRIATELY IDENTIFY, PREVENT & ADDRESS MENTAL HEALTH, HARASSMENT AND DISCRIMINATION ISSUES IN THE WORKPLACE",
+                "speakerdesc": "Hendrik Nieuwland Partner Shields O'Donnell MacKillop LLP",
+                "learnmore": "https://www.torontoentrepreneurs.ca/hendrik-nieuwland"
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "9:20am",
+                "end": "10:00am",
+                "room": "Room 107",
+                "eventdesc": "HOW TO GET CLEAR & TANGIBLE RESULTS WITH DIGITAL MARKETING STRATEGIES",
+                "speakerdesc": "Alex Saran Director, Affiliate Partner Program district m",
+                "learnmore": "https://www.torontoentrepreneurs.ca/alex-saran"
+            },
+            {
+                "networking": true,
+                "date": "",
+                "start": "10:00am",
+                "end": "10:30am",
+                "room": "",
+                "eventdesc": "TRADESHOW AND NETWORKING",
+                "speakerdesc": "",
+                "learnmore": ""
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "10:30am",
+                "end": "11:10am",
+                "room": "Room 105",
+                "eventdesc": "THE ART OF NEGOTIATION",
+                "speakerdesc": "Charles Hendriks President The Performance Management Academy Inc.",
+                "learnmore": "https://www.torontoentrepreneurs.ca/charles-hendriks"
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "10:30am",
+                "end": "11:10am",
+                "room": "Room 107",
+                "eventdesc": "FINTECH AND FUTURE OF PAYMENTS",
+                "speakerdesc": "Michelle Beyo Founder FinAvator",
+                "learnmore": "https://www.torontoentrepreneurs.ca/charles-hendriks"
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "11:15am",
+                "end": "12:00pm",
+                "room": "Room 105",
+                "eventdesc": "'READY, FIRE...AIM.' WHY TECHNOLOGY-BASED CYBERSECURITY SOLUTIONS ARE FAILING SMALL BUSINESSES.",
+                "speakerdesc": "Jeff Dawley President & Founder CyberSecurity Compiance Corp.",
+                "learnmore": "https://www.torontoentrepreneurs.ca/jeff-dawley"
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "11:15am",
+                "end": "12:00pm",
+                "room": "Room 107",
+                "eventdesc": "LEADING INNOVATION",
+                "speakerdesc": "Dr. David Weiss President & CEO Weiss International Ltd.",
+                "learnmore": "https://www.torontoentrepreneurs.ca/dr-david-weiss"
+            },
+            {
+                "networking": true,
+                "date": "",
+                "start": "12:00pm",
+                "end": "1:00pm",
+                "room": "",
+                "eventdesc": "TRADESHOW AND NETWORKING",
+                "speakerdesc": "",
+                "learnmore": ""
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "1:00pm",
+                "end": "2:00pm",
+                "room": "Room 105",
+                "eventdesc": "GROUP BENEFITS AND CLOUD BASED ADMIN SOLUTIONS - A WINNING COMBINATION FOR SMALL BUSINESSES",
+                "speakerdesc": "Marie-Chantal Cote Vice-President, Market Development, Group Benefits Sun Life Financial",
+                "learnmore": "https://www.torontoentrepreneurs.ca/marie-chantal-cote"
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "1:00pm",
+                "end": "2:00pm",
+                "room": "Room 107",
+                "eventdesc": "GETTING SOMETHING MORE THAN NOTHING FOR YOUR BUSINESS: WHAT'S IT WORTH?",
+                "speakerdesc": "Melanie Russell President Kalex Valuations Inc.",
+                "learnmore": "https://www.torontoentrepreneurs.ca/melanie-russell"
+            },
+            {
+                "networking": true,
+                "date": "",
+                "start": "2:00pm",
+                "end": "2:30pm",
+                "room": "",
+                "eventdesc": "TRADESHOW AND NETWORKING",
+                "speakerdesc": "",
+                "learnmore": ""
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "2:30pm",
+                "end": "3:15pm",
+                "room": "Room 105",
+                "eventdesc": "KEYNOTE SPEAKER",
+                "speakerdesc": "Jim Estill Founder & CEO Danby Appliances & ShipperBee",
+                "learnmore": "https://www.torontoentrepreneurs.ca/jim-estill"
+            },
+            {
+                "networking": true,
+                "date": "",
+                "start": "3:15pm",
+                "end": "3:45pm",
+                "room": "",
+                "eventdesc": "TRADESHOW AND NETWORKING",
+                "speakerdesc": "",
+                "learnmore": ""
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "3:45pm",
+                "end": "4:15pm",
+                "room": "Room 105",
+                "eventdesc": "EFFECTIVELY SELECTING SALES PROFESSIONALS",
+                "speakerdesc": "Robert A. Dougan MA, Talent Strategist, Self Management Group",
+                "learnmore": "https://www.torontoentrepreneurs.ca/robert-a-dougan"
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "3:45pm",
+                "end": "4:15pm",
+                "room": "Room 107",
+                "eventdesc": "HOW TO HAVE MAX IMPACT: ARCHITECTING THE MINDSET OF A HIGH-PERFORMER",
+                "speakerdesc": "Coach Susan Hobson Founder & Principal Elite High-Performance",
+                "learnmore": "https://www.torontoentrepreneurs.ca/coach-susan-hobson"
+            },
+            {
+                "networking": false,
+                "date": "",
+                "start": "4:20pm",
+                "end": "5:30pm",
+                "room": "",
+                "eventdesc": "NETWORKING SESSION: DEVELOPING STRATEGIC CONNECTIONS AND CONVERSATIONS",
+                "speakerdesc": "Charles McFarland President Business Network International",
+                "learnmore": "https://www.torontoentrepreneurs.ca/coach-susan-hobson"
+            }
+        ]
+    }
+}
