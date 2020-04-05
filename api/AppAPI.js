@@ -8,7 +8,7 @@ export function firebaseLogin() {
   // Initialize Firebase
   try {
     //connection data from Firebase
-    var firebaseConfig = {
+    /*var firebaseConfig = {
       apiKey: "AIzaSyBclNKeDHm3mk8BbnBi6-kE5uyoQTPdJtk",
       authDomain: "entrepreneurs-52a6a.firebaseapp.com",
       databaseURL: "https://entrepreneurs-52a6a.firebaseio.com",
@@ -17,21 +17,26 @@ export function firebaseLogin() {
       messagingSenderId: "498850433095",
       appId: "1:498850433095:web:3e63161ee03b47673b0962",
       measurementId: "G-XHDC0RR8NS"  
-    };
+    };*/
     
+    var firebaseConfig = {
+      apiKey: "AIzaSyAnAdPFQw5QzBocD0gigvSiiV_pej_EajQ",
+      authDomain: "testing-3052d.firebaseapp.com",
+      databaseURL: "https://testing-3052d.firebaseio.com",
+      projectId: "testing-3052d",
+      storageBucket: "testing-3052d.appspot.com",
+      messagingSenderId: "783312933585",
+      appId: "1:783312933585:web:0220a0857327263aadebf0",
+      measurementId: "G-QTFCMZFR4M"
+    };
     firebase.initializeApp(firebaseConfig);
     console.log('Firebase connected');
 
     loadHomeData();
-
     loadScheduleData();
-
     loadExhibitorData();
-
     loadSpeakerData();
-
     loadTicketData();
-
     registerForPushNotifications();
 
   }
@@ -41,7 +46,7 @@ export function firebaseLogin() {
 }
 
 export function loadHomeData() {
-    firebase.database().ref('/torontojobsDBTO/homescreen').on('value', (snapshot) => {
+    firebase.database().ref('eventTest/torontojobsDBTO').on('value', (snapshot) => {
       var tempJSON = snapshot.val();
       console.log('Home Data Loaded from Firebase.');
       var path = FileSystem.documentDirectory + 'homedata.json';
@@ -50,7 +55,7 @@ export function loadHomeData() {
 }
 
 export function loadScheduleData() {
-  firebase.database().ref('/torontojobsDBTO/schedulescreen').on('value', (snapshot) => {
+  firebase.database().ref('eventTest/torontojobsDBTO/schedulescreen').on('value', (snapshot) => {
     var tempJSON = snapshot.val();
     console.log('Schedule Data Loaded from Firebase.');
     var path = FileSystem.documentDirectory + 'scheduledata.json';
@@ -59,7 +64,7 @@ export function loadScheduleData() {
 }
 
 export function loadExhibitorData() {
-  firebase.database().ref('/torontojobsDBTO/exhibitorscreen').on('value', (snapshot) => {
+  firebase.database().ref('eventTest/torontojobsDBTO/exhibitorscreen').on('value', (snapshot) => {
     var tempJSON = snapshot.val();
     console.log('Exhibitor Data Loaded from Firebase.');
     var path = FileSystem.documentDirectory + 'exhibitordata.json';
@@ -68,7 +73,7 @@ export function loadExhibitorData() {
 }
 
 export function loadSpeakerData() {
-  firebase.database().ref('/torontojobsDBTO/speakerscreen').on('value', (snapshot) => {
+  firebase.database().ref('eventTest/torontojobsDBTO/speakerscreen').on('value', (snapshot) => {
     var tempJSON = snapshot.val();
     console.log('Speaker Data Loaded from Firebase.');
     var path = FileSystem.documentDirectory + 'speakerdata.json';
@@ -77,7 +82,7 @@ export function loadSpeakerData() {
 }
 
 export function loadTicketData() {
-  firebase.database().ref('/torontojobsDBTO/ticketscreen').on('value', (snapshot) => {
+  firebase.database().ref('eventTest/torontojobsDBTO/ticketscreen').on('value', (snapshot) => {
     var tempJSON = snapshot.val();
     console.log('Ticket Data Loaded from Firebase.');
     var path = FileSystem.documentDirectory + 'ticketdata.json';
